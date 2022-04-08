@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Challenge-ch4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="masukan_title">Masukan title</string>
+    <string name="masukan_text">Masukan Text</string>
+    <string name="ubah">ubah</string>
+    <string name="login">Login</string>
+    <string name="masukan_email">Masukan Email</string>
+    <string name="masukan_username">Masukan Username</string>
+    <string name="masukan_password">Masukan Password</string>
+    <string name="masukan_ulang_password">Masukan ulang password</string>
+    <string name="register">Register</string>
+</resources>

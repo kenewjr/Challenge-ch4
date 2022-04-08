@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20sp"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:text="@string/login"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <ImageView
+        android:src="@drawable/ehe"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       tools:ignore="ContentDescription" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/login_email"
+        android:hint="@string/masukan_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:passwordToggleEnabled="true">
+
+<EditText
+    android:background="@color/white"
+        android:id="@+id/login_password"
+        android:hint="Masukan Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    tools:ignore="Autofill,HardcodedText,TextFields" />
+
+</com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundcorner"
+        android:id="@+id/btnLogin"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/register"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
