@@ -3,6 +3,8 @@
     android:orientation="vertical"
     android:layout_margin="20dp"
     android:gravity="center"
+    android:minWidth="400dp"
+    android:minHeight="300dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,17 +14,19 @@
 
     <EditText
         android:id="@+id/in_title"
-        android:hint="Masukan title"
+        android:hint="@string/masukan_title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,TextFields" />
     <EditText
         android:id="@+id/in_text"
-        android:hint="Masukan text"
+        android:hint="@string/masukan_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        tools:ignore="Autofill,TextFields" />
     <Button
         android:id="@+id/add"
-        android:text="Tambah"
+        android:text="@string/tambah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
