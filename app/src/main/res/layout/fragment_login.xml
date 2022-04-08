@@ -45,6 +45,7 @@ app:passwordToggleEnabled="true">
 <EditText
     android:background="@color/white"
         android:id="@+id/login_password"
+        android:inputType="textPassword"
         android:hint="Masukan Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
