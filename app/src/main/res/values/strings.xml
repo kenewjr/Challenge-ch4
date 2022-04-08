@@ -11,4 +11,5 @@
     <string name="masukan_password">Masukan Password</string>
     <string name="masukan_ulang_password">Masukan ulang password</string>
     <string name="register">Register</string>
+    <string name="tambah">Tambah</string>
 </resources>
