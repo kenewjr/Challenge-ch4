@@ -30,7 +30,6 @@ class AdapterUser(private val listdatauser : List<User>):RecyclerView.Adapter<Ad
         holder.itemView.idUser.text = listdatauser[position].id.toString()
         holder.itemView.Title.text = listdatauser[position].title
         holder.itemView.text.text = listdatauser[position].text
-        //problem
         holder.itemView.delete.setOnClickListener {
             mDBnew = DbUser.getInstance(it.context)
             AlertDialog.Builder(it.context).setTitle("Hapus Data").setMessage("Yakin Hapus data?")
@@ -55,7 +54,6 @@ class AdapterUser(private val listdatauser : List<User>):RecyclerView.Adapter<Ad
                 }
                 .show()
         }
-        //problem
         holder.itemView.edit.setOnClickListener {
             mDBnew= DbUser.getInstance(it.context)
             val dEdit = LayoutInflater.from(it.context).inflate(R.layout.edit_dialog,null,false)
